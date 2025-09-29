@@ -8,3 +8,18 @@ body {
   font-weight: 400; /* یا هر عدد دلخواه */
   font-style: normal;
 }
+
+html{
+    scroll-behavior: smooth;
+}
+
+p{
+    color: rgb(85, 85, 85);
+}
+
+/* Transition */
+
+a, .btn{
+    transition: all 300 ease;
+}
+
