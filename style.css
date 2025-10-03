@@ -172,9 +172,17 @@ section{
   margin: auto 0;
 }
 
+#profile .section__pic-container img{
+  border-radius:5rem;
+}
+
 .section__text{
   align-self: center;
   text-align: center;
+  flex-direction:column;
+  display:flex;
+  align-items:center;
+  gap:1rem;
 }
 
 .section__text p{
@@ -244,4 +252,63 @@ section{
 
 .btn-color-1:hover, .btn-color-2:hover{
   cursor: pointer;
+}
+
+/* About container */
+
+#about{
+  position: relative;
+}
+
+.about-container{
+  gap: 2rem;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+}
+
+.about-details-container{
+  justify-content: center;
+  flex-direction: column;
+}
+
+.about-containers, .about-details-container{
+  display: flex;
+}
+
+.about-pic-detail{
+  display: flex;
+}
+
+.about-pic{
+  border-radius: 5rem;
+  margin-left: 2rem;
+}
+
+.arrow{
+  position: absolute;
+  right: -5rem;
+  bottom: 2.5 rem;
+}
+
+.details-container{
+  padding: 1.5rem;
+  flex: 1;
+  background-color: white;
+  border-radius: 2rem;
+  border: rgb(53, 53, 53) 0.1rem solid;
+  border-color: rgb(181, 181, 181);
+  text-align: center;
+  margin: 1rem;
+}
+
+.section-container{
+  gap: 4rem;
+  height: 80%;
+}
+
+.section__pic-container{
+  height: 400px;
+  width: 400px;
+  margin: auto 0;
+  display: flex;
 }
