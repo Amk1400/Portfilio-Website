@@ -377,3 +377,29 @@ section {
   height: 3rem;
   margin-bottom: 1rem;
 }
+
+/* Projects */
+.projects-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.project-card {
+  flex: 1 1 250px;
+  background-color: white;
+  border: 1px solid rgb(181, 181, 181);
+  border-radius: 1rem;
+  padding: 1.5rem;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.project-card:hover {
+  background-color: #000;
+  color: white;
+  transform: translateY(-5px);
+}
