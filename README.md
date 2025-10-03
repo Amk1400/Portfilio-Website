@@ -38,5 +38,5 @@ Portfilio-Website/
 
 ---
 
-Made with ❤️ using HTML, CSS & JS
+Made using HTML, CSS & JS
 
