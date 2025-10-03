@@ -78,6 +78,7 @@ a:hover{
 /* Hamburger Menu */
 #hamburger-nav{
     display: none;
+    margin: 2rem;
 }
 
 .hamburger-menu{
@@ -104,7 +105,8 @@ a:hover{
 .menu-links{
   position: absolute;
   top: 100%;
-  right: 0%;
+  left: 0;      /* منو از چپ باز میشه */
+  right: auto;
   background-color: white;
   width: 8rem;
   max-height: 0%;
@@ -318,6 +320,7 @@ section {
 .text-container {
   text-align: center;
   margin-top: 1rem;
+  margin-bottom: 2rem;
 }
 
 .skills-container {
@@ -408,7 +411,7 @@ section {
 /* Contact */
 
 #contact {
-  padding: 4vh 10rem;
+  /* padding: 4vh 10rem; */
   min-height: auto;
 }
 
@@ -418,6 +421,7 @@ section {
   gap: 3rem;
   justify-content: center;
   margin-top: 2rem;
+  align-items: center;
 }
 
 .contact-item {
