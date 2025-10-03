@@ -403,3 +403,43 @@ section {
   color: white;
   transform: translateY(-5px);
 }
+
+
+/* Contact */
+
+#contact {
+  padding: 4vh 10rem;
+  min-height: auto;
+}
+
+.contact-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 3rem;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.contact-item {
+  flex: 1 1 250px;
+  border: 1px solid rgb(181, 181, 181);
+  border-radius: 1rem;
+  padding: 1.5rem;
+  text-align: center;
+  background-color: white;
+  transition: all 0.3s ease-in-out;
+}
+
+.contact-item a {
+  text-decoration: none;
+  color: black;
+}
+
+.contact-item:hover {
+  background-color: #000;
+  color: white;
+}
+
+.contact-item:hover a {
+  color: white;
+}
