@@ -443,3 +443,12 @@ section {
 .contact-item:hover a {
   color: white;
 }
+
+#footer {
+  text-align: center;
+  padding: 2rem;
+  margin-top: 3rem;
+  background-color: #f5f5f5;
+  color: #555;
+  font-size: 0.9rem;
+}
